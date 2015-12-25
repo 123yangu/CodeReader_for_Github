@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="24dp"
+    tools:context=".LoginActivity"
+    android:id="@+id/relative_container"
+    android:background="@color/color_primary">
+
+
+    <fragment
+        android:name="com.codereader.samusko.codereader.fragments.LoginFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_login" />
+
+
+</RelativeLayout>

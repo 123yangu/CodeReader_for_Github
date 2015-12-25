@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Code Reader</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_user">My Profile</string>
+    <string name="title_activity_repo_conten_view">RepoContenViewActivity</string>
+
+    <string name="hint_password">Password</string>
+    <string name="hint_login">Login</string>
+    <string name="btn_login">Log in</string>
+
+    <string name="err_msg_login">Incorrect login</string>
+    <string name="err_msg_password">Incorrect password</string>
+
+    <string name="toast_incorrect_credentials">Login or password is not valid</string>
+
+    <string name="nav_drawer_open">Open</string>
+    <string name="nav_drawer_close">Close</string>
+
+    <array name="nav_drawer_menu_titles">
+        <item>View Profile</item>
+        <item>Find user</item>
+        <item>Find repository</item>
+        <item>Settings</item>
+        <item>Log out</item>
+    </array>
+
+    <integer-array name="nav_drawer_menu_icons">
+        <item>@mipmap/ic_account_circle_white</item>
+        <item>@mipmap/ic_find_user_white</item>
+        <item>@mipmap/ic_find_repo_white</item>
+        <item>@mipmap/ic_settings_white</item>
+        <item>@mipmap/ic_log_out_white</item>
+    </integer-array>
+
+
+    <string name="tab_user_repos">My Repos</string>
+    <string name="tab_user_forked_repos">Forks</string>
+    <string name="tab_user_public_activities">Public Activities</string>
+    <string name="title_activity_repo">RepoActivity</string>
+
+    <string name="tab_repo_files">Files</string>
+    <string name="tab_repo_branches">Branches</string>
+    <string name="tab_repo_all_commits">All Commits</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_file">FileActivity</string>
+
+</resources>

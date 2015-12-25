@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/nav_drawer_width"
+    android:layout_height="fill_parent"
+    android:paddingTop="@dimen/toolbar_padding_top"
+    android:background="@color/nav_drawer_background"
+    android:orientation="vertical"
+    tools:context="com.codereader.samusko.codereader.fragments.NavigationDrawerFragment">
+
+    <TextView
+        android:id="@+id/nav_drawer_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Bohdan Samusko"
+        android:textColor="@android:color/white"
+        android:layout_margin="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/nav_drawer_followers"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="15\nfollowers"
+            android:textColor="@android:color/white" />
+
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/nav_drawer_avatar"
+            android:layout_width="@dimen/nav_avatar_size"
+            android:layout_height="@dimen/nav_avatar_size"
+            android:src="@mipmap/ic_launcher"
+            app:civ_border_color="@android:color/white"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/nav_drawer_followings"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="15\nfollowings"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/nav_drawer_joined_date"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Joined on 12 Jan 2015"
+        android:textColor="@android:color/white"
+        android:layout_margin="5dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/nav_drawer_recycler_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical"
+        />
+
+</LinearLayout>

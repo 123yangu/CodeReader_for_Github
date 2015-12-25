@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        tools:context="com.codereader.samusko.codereader.activities.UserActivity">
+
+        <include
+            android:id="@+id/tool_bar_user_activity"
+            layout="@layout/tool_bar" />
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_layout_user_activity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_primary"
+            app:tabMode="scrollable"
+            app:tabIndicatorColor="@android:color/white"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager_user_activity"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent" />
+
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/fragment_nav_drawer"
+        android:name="com.codereader.samusko.codereader.fragments.NavigationDrawerFragment"
+        android:layout_width="@dimen/nav_drawer_width"
+        android:layout_height="fill_parent"
+        android:layout_gravity="start"
+        tools:layout="@layout/fragment_navigation_drawer" />
+
+
+</android.support.v4.widget.DrawerLayout>
+
+
+
+
+

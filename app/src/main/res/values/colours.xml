@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- Blue color pallete -->
+    <item name="color_primary" type="color">#2196f3</item>
+    <item name="color_primary_dark" type="color">#1565c0</item>
+
+    <item name="colorAccent" type="color">#009688</item>
+    <item name="light_primary_color" type="color">#BBDEFB</item>
+
+    <item name="background_list_color" type="color">#bdbdbd</item>
+
+    <color name="blue_btn_pressed">@android:color/holo_blue_dark</color>
+    <color name="blue_btn_normal">@android:color/holo_blue_light</color>
+
+    <color name="login_activity_background">#64b5f6</color>
+    <color name="card_login_background">#a6d4ff</color>
+
+    <color name="nav_drawer_background">#607D8B</color>
+
+</resources>
