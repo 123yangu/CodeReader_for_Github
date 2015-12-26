@@ -41,6 +41,10 @@ In the first one you can navigate inside files of the repository and also you ca
 
 ![alt tag](https://cloud.githubusercontent.com/assets/10655043/12006025/be4791be-abcb-11e5-8ca3-f1e8e4ce4a2c.png)
 
+Also you can discover the file (in this case .java file) If you click on a file in the list. 
+
+![alt tag](https://cloud.githubusercontent.com/assets/10655043/12006026/be5d2de4-abcb-11e5-924e-26340f14a360.png)
+
 In the second tab of this activity you can see all commit of the branch which you can choose in the drop down list (spinner). 
 
 ![alt tag](https://cloud.githubusercontent.com/assets/10655043/12006023/be388b4c-abcb-11e5-9ce8-22779015d567.png)
