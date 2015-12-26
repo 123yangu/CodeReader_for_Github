@@ -1,6 +1,6 @@
 # CodeReader_for_Github
 
-A simple client for working with Github API.
+Client for working with Github API.
 
 This repository demonstrate code which allows to understand logic of making HTTP requests for REST web-service and parsing them into POJO classes.
 
