@@ -49,3 +49,7 @@ The third tab represents a list of all branches in the repository.
 
 ![alt tag](https://cloud.githubusercontent.com/assets/10655043/12006024/be3f8406-abcb-11e5-92eb-53824a34d91a.png)
 
+So, here is the basic version of my prototype for working with Github API. In the next versions I will add new features such as public activities o of the user, possibility to search Github users and repositories.   
+
+
+
