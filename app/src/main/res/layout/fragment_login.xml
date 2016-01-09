@@ -57,7 +57,7 @@
                             android:layout_gravity="center_horizontal"
                             android:hint="@string/hint_login"
                             android:inputType="textPersonName"
-                            android:text="bohdansamusko"
+                            android:text=""
                             android:textColor="#ffffff" />
 
                     </android.support.design.widget.TextInputLayout>
@@ -76,7 +76,7 @@
                             android:layout_gravity="center_horizontal"
                             android:hint="@string/hint_password"
                             android:inputType="textPassword"
-                            android:text="mygithubpasswordsamusko"
+                            android:text=""
                             android:textColor="#ffffff" />
                     </android.support.design.widget.TextInputLayout>
 
